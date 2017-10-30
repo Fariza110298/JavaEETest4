@@ -11,6 +11,14 @@
         <servlet-name>parametertest1servlet</servlet-name>
         <url-pattern>/paramtest1</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>checkboxtest</servlet-name>
+        <servlet-class>kz.kaznitu.servlet.CheckBoxTestServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>checkboxtest</servlet-name>
+        <url-pattern>/checkbox</url-pattern>
+    </servlet-mapping>
 
     <servlet>
         <servlet-name>allparameters</servlet-name>
