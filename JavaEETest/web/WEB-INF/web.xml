@@ -3,5 +3,22 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
          version="3.1">
+    <servlet>
+        <servlet-name>parametertest1servlet</servlet-name>
+        <servlet-class>kz.kaznitu.servlet.ParameterTest1Servlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>parametertest1servlet</servlet-name>
+        <url-pattern>/paramtest1</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>allparameters</servlet-name>
+        <servlet-class>kz.kaznitu.servlet.ParameterTest2Servlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>allparameters</servlet-name>
+        <url-pattern>/allparam</url-pattern>
+    </servlet-mapping>
 
 </web-app>
